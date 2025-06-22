@@ -93,7 +93,28 @@
 
         <!--Form-->
         <section id="Feedback">
+            <h2>Feedback</h2>
+            <form>
+                <label class="form-label" for="name">Your Name:</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Enter your name" required
+                    autofocus><br><br>
 
+                <label class="form-label" for="message">Your Thoughts:</label>
+                <textarea class="form-control" id="message" name="message"
+                    placeholder="Share your opinion about Kyoto"></textarea><br><br>
+
+                <label class="form-label" for="visit">Would you visit Kyoto?</label>
+                <select class="form-control" id="visit" name="visit">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="maybe">Maybe</option>
+                </select><br><br>
+
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-control" type="email" id="email" name="email"><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
 
         </section>
     </aside>
